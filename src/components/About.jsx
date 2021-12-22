@@ -13,7 +13,7 @@ function About(){
                 <p>
                 <strong>about:</strong>
                 <br/>
-                - New Orleans -- Austin
+                - New Orleans => Austin
                 <br/>
                 - former System Administrator / current IT guy
                 <br/>

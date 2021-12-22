@@ -5,7 +5,9 @@ function NavBar(){
 
     return(
         <Navbar>
-            <h2>hello</h2>
+        <h4>
+            <Link to='/'> Home </Link>
+        </h4>
           <h4>
                 <Link to='/about'> About </Link>
             </h4>
