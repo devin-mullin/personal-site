@@ -1,14 +1,19 @@
 import { Link } from 'react-router-dom'
+import { Navbar } from 'react-bootstrap'
 
 function NavBar(){
 
     return(
-        <div>
+        <Navbar>
             <h2>hello</h2>
-            <button>
-                <Link to='/about'>About</Link>
-            </button>
-        </div>
+          <h4>
+                <Link to='/about'> About </Link>
+            </h4>
+            <span> </span>
+            <h4>
+                <Link to='/projects'> Projects </Link>
+            </h4>
+        </Navbar>
     )
 }
 
